@@ -17,6 +17,7 @@
 		69BB64662A496DA2001274AC /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64652A496DA2001274AC /* ScanView.swift */; };
 		69BB64682A496DAF001274AC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64672A496DAF001274AC /* SettingsView.swift */; };
 		69BB646B2A4974C3001274AC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB646A2A4974C3001274AC /* LocationManager.swift */; };
+		69BB646E2A4BEB22001274AC /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB646D2A4BEB22001274AC /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		69BB64652A496DA2001274AC /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		69BB64672A496DAF001274AC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		69BB646A2A4974C3001274AC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		69BB646D2A4BEB22001274AC /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		69BB644E2A495CF2001274AC /* ParkMate */ = {
 			isa = PBXGroup;
 			children = (
+				69BB646C2A4BEB05001274AC /* Camera */,
 				69BB64692A4974B4001274AC /* Location */,
 				69BB64622A496D86001274AC /* MainPages */,
 				69BB645D2A495F92001274AC /* TabView */,
@@ -107,6 +110,14 @@
 				69BB646A2A4974C3001274AC /* LocationManager.swift */,
 			);
 			path = Location;
+			sourceTree = "<group>";
+		};
+		69BB646C2A4BEB05001274AC /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				69BB646D2A4BEB22001274AC /* CameraController.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 				69BB64682A496DAF001274AC /* SettingsView.swift in Sources */,
 				69BB64612A49673E001274AC /* MainTab.swift in Sources */,
 				69BB645F2A495FAA001274AC /* CustomTab.swift in Sources */,
+				69BB646E2A4BEB22001274AC /* CameraController.swift in Sources */,
 				69BB64642A496D98001274AC /* MapView.swift in Sources */,
 				69BB646B2A4974C3001274AC /* LocationManager.swift in Sources */,
 				69BB64522A495CF2001274AC /* ContentView.swift in Sources */,
@@ -317,6 +329,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ParkMate/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app need ypur camera to scan the signs";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find the nearest parking spots to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -346,6 +359,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ParkMate/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app need ypur camera to scan the signs";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find the nearest parking spots to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
