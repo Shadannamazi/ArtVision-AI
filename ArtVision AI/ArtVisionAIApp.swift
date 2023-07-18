@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ParkMateApp: App {
+struct ArtVisionAI: App {
     var body: some Scene {
         WindowGroup {
             MainTab()

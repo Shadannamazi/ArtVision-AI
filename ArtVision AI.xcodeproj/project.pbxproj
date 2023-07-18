@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69BB64502A495CF2001274AC /* ParkMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB644F2A495CF2001274AC /* ParkMateApp.swift */; };
+		69BB64502A495CF2001274AC /* ArtVisionAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB644F2A495CF2001274AC /* ArtVisionAIApp.swift */; };
 		69BB64522A495CF2001274AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64512A495CF2001274AC /* ContentView.swift */; };
 		69BB64542A495CF3001274AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BB64532A495CF3001274AC /* Assets.xcassets */; };
 		69BB64572A495CF3001274AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BB64562A495CF3001274AC /* Preview Assets.xcassets */; };
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		69BB644C2A495CF2001274AC /* ArtVision AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArtVision AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69BB644F2A495CF2001274AC /* ParkMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkMateApp.swift; sourceTree = "<group>"; };
+		69BB644F2A495CF2001274AC /* ArtVisionAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtVisionAIApp.swift; sourceTree = "<group>"; };
 		69BB64512A495CF2001274AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69BB64532A495CF3001274AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69BB64562A495CF3001274AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 				69BB64692A4974B4001274AC /* Location */,
 				69BB64622A496D86001274AC /* MainPages */,
 				69BB645D2A495F92001274AC /* TabView */,
-				69BB644F2A495CF2001274AC /* ParkMateApp.swift */,
+				69BB644F2A495CF2001274AC /* ArtVisionAIApp.swift */,
 				69BB64512A495CF2001274AC /* ContentView.swift */,
 				69BB64532A495CF3001274AC /* Assets.xcassets */,
 				69BB64552A495CF3001274AC /* Preview Content */,
@@ -253,7 +253,7 @@
 				69BB64832A6705CC001274AC /* LoadingView.swift in Sources */,
 				69BB64522A495CF2001274AC /* ContentView.swift in Sources */,
 				69BB64772A5FCF7C001274AC /* SqueezeNet.mlmodel in Sources */,
-				69BB64502A495CF2001274AC /* ParkMateApp.swift in Sources */,
+				69BB64502A495CF2001274AC /* ArtVisionAIApp.swift in Sources */,
 				69BB64662A496DA2001274AC /* ScanView.swift in Sources */,
 				69BB64752A5F627E001274AC /* ImageModel.swift in Sources */,
 				69BB64702A5F60E2001274AC /* UpdatableDrawingClassifier.mlmodel in Sources */,
