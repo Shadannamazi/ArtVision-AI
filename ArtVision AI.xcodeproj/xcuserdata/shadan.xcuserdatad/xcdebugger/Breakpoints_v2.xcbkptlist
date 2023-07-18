@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "497F6B2F-C0E8-43AC-B729-B1F10031A1BA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70545B72-815E-4F7A-95BA-6FF2730DECB0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ParkMate/Camera/CameraController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "CameraController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ParkMate/Camera/CameraController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "CameraController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - 5daa416ac4f94414"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ParkMate.CameraController.output : __C.AVCapturePhotoOutput"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/ParkMate/Camera/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - f4a5be1db3ca2458"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkMate.CameraController.output.getter : __C.AVCapturePhotoOutput"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/ParkMate/Camera/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - 35dc3d12a792a41c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkMate.CameraController.output.setter : __C.AVCapturePhotoOutput"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/ParkMate/Camera/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - 8951bb7767f4b44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkMate.CameraController.output.modify : __C.AVCapturePhotoOutput"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/ParkMate/Camera/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - 128bdb863cc1f506"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkMate.CameraController.output.modify : __C.AVCapturePhotoOutput with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/ParkMate/Camera/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - 5dab387323dc7bfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkMate.CameraController.$output.getter : Combine.Published&lt;__C.AVCapturePhotoOutput&gt;.Publisher"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/ParkMate/Camera/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - dc78b0a05e76c395"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkMate.CameraController.$output.setter : Combine.Published&lt;__C.AVCapturePhotoOutput&gt;.Publisher"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/ParkMate/Camera/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - 69eb6e7bbb4ef18d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkMate.CameraController.$output.modify : Combine.Published&lt;__C.AVCapturePhotoOutput&gt;.Publisher"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - 888dd61f2582d8e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkMate.CameraController.$output.modify : Combine.Published&lt;__C.AVCapturePhotoOutput&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/ParkMate/Camera/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "63372DC6-191D-4584-90C0-0B328A7FF0C4 - 8bf27fe86f83203e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkMate.CameraController.init() -&gt; ParkMate.CameraController"
+                  moduleName = "ParkMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shadan/Desktop/Swift/ParkMate/ParkMate/Camera/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "832">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

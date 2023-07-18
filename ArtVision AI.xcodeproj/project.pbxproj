@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69BB644C2A495CF2001274AC /* ParkMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BB644C2A495CF2001274AC /* ArtVision AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArtVision AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BB644F2A495CF2001274AC /* ParkMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkMateApp.swift; sourceTree = "<group>"; };
 		69BB64512A495CF2001274AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69BB64532A495CF3001274AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			children = (
 				69BB646F2A5F60E2001274AC /* UpdatableDrawingClassifier.mlmodel */,
 				69BB64762A5FCF7C001274AC /* SqueezeNet.mlmodel */,
-				69BB644E2A495CF2001274AC /* ParkMate */,
+				69BB644E2A495CF2001274AC /* ArtVision AI */,
 				69BB644D2A495CF2001274AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,12 +74,12 @@
 		69BB644D2A495CF2001274AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69BB644C2A495CF2001274AC /* ParkMate.app */,
+				69BB644C2A495CF2001274AC /* ArtVision AI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69BB644E2A495CF2001274AC /* ParkMate */ = {
+		69BB644E2A495CF2001274AC /* ArtVision AI */ = {
 			isa = PBXGroup;
 			children = (
 				69BB64812A6705BD001274AC /* LoadingPage */,
@@ -95,7 +95,7 @@
 				69BB64532A495CF3001274AC /* Assets.xcassets */,
 				69BB64552A495CF3001274AC /* Preview Content */,
 			);
-			path = ParkMate;
+			path = "ArtVision AI";
 			sourceTree = "<group>";
 		};
 		69BB64552A495CF3001274AC /* Preview Content */ = {
@@ -169,9 +169,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69BB644B2A495CF2001274AC /* ParkMate */ = {
+		69BB644B2A495CF2001274AC /* ArtVision AI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69BB645A2A495CF3001274AC /* Build configuration list for PBXNativeTarget "ParkMate" */;
+			buildConfigurationList = 69BB645A2A495CF3001274AC /* Build configuration list for PBXNativeTarget "ArtVision AI" */;
 			buildPhases = (
 				69BB64482A495CF2001274AC /* Sources */,
 				69BB64492A495CF2001274AC /* Frameworks */,
@@ -181,12 +181,12 @@
 			);
 			dependencies = (
 			);
-			name = ParkMate;
+			name = "ArtVision AI";
 			packageProductDependencies = (
 				69BB647C2A651032001274AC /* OpenAIKit */,
 			);
 			productName = ParkMate;
-			productReference = 69BB644C2A495CF2001274AC /* ParkMate.app */;
+			productReference = 69BB644C2A495CF2001274AC /* ArtVision AI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69BB64472A495CF2001274AC /* Build configuration list for PBXProject "ParkMate" */;
+			buildConfigurationList = 69BB64472A495CF2001274AC /* Build configuration list for PBXProject "ArtVision AI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69BB644B2A495CF2001274AC /* ParkMate */,
+				69BB644B2A495CF2001274AC /* ArtVision AI */,
 			);
 		};
 /* End PBXProject section */
@@ -450,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69BB64472A495CF2001274AC /* Build configuration list for PBXProject "ParkMate" */ = {
+		69BB64472A495CF2001274AC /* Build configuration list for PBXProject "ArtVision AI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69BB64582A495CF3001274AC /* Debug */,
@@ -459,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69BB645A2A495CF3001274AC /* Build configuration list for PBXNativeTarget "ParkMate" */ = {
+		69BB645A2A495CF3001274AC /* Build configuration list for PBXNativeTarget "ArtVision AI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69BB645B2A495CF3001274AC /* Debug */,
