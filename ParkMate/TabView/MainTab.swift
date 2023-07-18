@@ -13,7 +13,7 @@ struct MainTab: View {
         UITabBar.appearance().isHidden = true
     }
     
-    @State var selectedTab: Tab = .map
+    @State var selectedTab: Tab = .viewfinder
     var body: some View {
         
         ZStack {
@@ -24,6 +24,7 @@ struct MainTab: View {
                     }
                     if selectedTab == .viewfinder {
                         ScanView()
+                        //ContentView()
                     }
                     if selectedTab == .gear {
                         SettingsView()

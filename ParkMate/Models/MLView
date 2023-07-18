@@ -1,0 +1,20 @@
+//
+//  Image Recognition View.swift
+//  ParkMate
+//
+//  Created by Shadan Namazi on 2023-07-12.
+//
+
+import SwiftUI
+
+struct Image_Recognition_View: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+struct Image_Recognition_View_Previews: PreviewProvider {
+    static var previews: some View {
+        Image_Recognition_View()
+    }
+}

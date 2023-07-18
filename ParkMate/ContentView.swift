@@ -1,21 +1,49 @@
-//
-//  ContentView.swift
-//  ParkMate
-//
-//  Created by Shadan Namazi on 2023-06-25.
-//
-
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
+    @StateObject private var cameraController = CameraController()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            if cameraController.isTaken {
+                Text("Photo Taken!")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.black)
+            } else {
+                CameraPreview2(camera: cameraController)
+            }
+
+//            Button(action: {
+//                cameraController.capturePhoto()
+//            }) {
+//                Image(systemName: "camera.circle.fill")
+//                    .font(.system(size: 80))
+//                    .foregroundColor(.white)
+//            }
+//            .padding()
         }
-        .padding()
+        .onAppear {
+            cameraController.checkIfCameraAuthorized()
+        }
+    }
+}
+
+struct CameraPreview2: UIViewRepresentable {
+    @ObservedObject var camera: CameraController
+
+    func makeUIView(context: Context) ->  UIView {
+        let view = UIView(frame: UIScreen.main.bounds)
+        camera.preview = AVCaptureVideoPreviewLayer(session: camera.session)
+        camera.preview.videoGravity = .resizeAspectFill
+        camera.preview.frame = view.layer.bounds
+        view.layer.addSublayer(camera.preview)
+        return view
+    }
+
+    func updateUIView(_ uiView: UIView, context: Context) {
     }
 }
 

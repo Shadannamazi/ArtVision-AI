@@ -45,6 +45,6 @@ struct CustomTab: View {
 
 struct CustomTab_Previews: PreviewProvider {
     static var previews: some View {
-        CustomTab(selectedTab: .constant(.gear))
+        CustomTab(selectedTab: .constant(.viewfinder))
     }
 }
