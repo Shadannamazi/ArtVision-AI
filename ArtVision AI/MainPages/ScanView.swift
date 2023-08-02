@@ -47,7 +47,7 @@ struct ScanView: View {
                     Spacer()
                     Spacer()
                     
-                    HStack {
+                    //HStack {
                         
                         if cameraController.isTaken{
                             HStack {
@@ -57,34 +57,53 @@ struct ScanView: View {
 //                                    Image(systemName: "xmark")
 //                                        .foregroundColor(Color.white)
 //                                }
-                                Button{
-                                    if !cameraController.isGenerated{
-                                        cameraController.generateImage()
-                                        
+                                if !cameraController.isGenerated{
+                                    Button{
+                                        if !cameraController.isGenerated{
+                                            cameraController.generateImage()
+                                            
+                                            
+                                        } else{
+                                            
+                                        }
+                                    } label: {
+
+                                        //Text(cameraController.classificationLabel)
+                                        Image(systemName: "checkmark")
+                                            .foregroundColor(Color.black)
+                
                                         
                                     }
-                                } label: {
-
-                                    //Text(cameraController.classificationLabel)
-                                    Text(cameraController.isGenerated ? "Generated": "Generate")
-                                        .foregroundColor(.black)
-                                        .fontWeight(.semibold)
-                                        .padding(.vertical,10)
-                                        .padding(.horizontal, 20)
-                                        .background(Color.white)
-                                        .clipShape(Capsule())
+                                    .foregroundColor(.black)
+                                    .fontWeight(.semibold)
+                                    .padding(.vertical,20)
+                                    .padding(.horizontal, 40)
+                                    .background(Color.white)
+                                .clipShape(Circle())
                                 }
+                                
                                 
                                 NavigationLink{
                                     
                                     ImageGenerator()
                                         .environmentObject(cameraController)
                                 } label:{
-                                    Text("Generate Image!!!!")
+                                    if cameraController.isGenerated{
+                                        Image(systemName: "arrow.right")
+                                            .foregroundColor(Color.black)
+                                            .foregroundColor(.black)
+                                            .fontWeight(.semibold)
+                                            .padding(.vertical,20)
+                                            .padding(.horizontal, 40)
+                                            .background(Color.white)
+                                        .clipShape(Circle())
+                                    }
+                                    
+                                   
                                 }
-                            .padding(.leading)
+                                
                             }
-                            Spacer()
+                            //Spacer()
                         } else{
                             Button(action: cameraController.takePic, label: {
                                 ZStack {
@@ -100,7 +119,7 @@ struct ScanView: View {
                                 }
                             })
                         }
-                    }
+                    //}
 
                     Spacer()
                 }

@@ -15,7 +15,7 @@
 		69BB64612A49673E001274AC /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64602A49673E001274AC /* MainTab.swift */; };
 		69BB64642A496D98001274AC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64632A496D98001274AC /* MapView.swift */; };
 		69BB64662A496DA2001274AC /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64652A496DA2001274AC /* ScanView.swift */; };
-		69BB64682A496DAF001274AC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64672A496DAF001274AC /* SettingsView.swift */; };
+		69BB64682A496DAF001274AC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64672A496DAF001274AC /* ProfileView.swift */; };
 		69BB646B2A4974C3001274AC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB646A2A4974C3001274AC /* LocationManager.swift */; };
 		69BB646E2A4BEB22001274AC /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB646D2A4BEB22001274AC /* CameraController.swift */; };
 		69BB64702A5F60E2001274AC /* UpdatableDrawingClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 69BB646F2A5F60E2001274AC /* UpdatableDrawingClassifier.mlmodel */; };
@@ -25,6 +25,11 @@
 		69BB647D2A651032001274AC /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 69BB647C2A651032001274AC /* OpenAIKit */; };
 		69BB64802A6510AD001274AC /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB647F2A6510AD001274AC /* ImageGenerator.swift */; };
 		69BB64832A6705CC001274AC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64822A6705CC001274AC /* LoadingView.swift */; };
+		69BB64852A78D492001274AC /* DALLE_API.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69BB64842A78D492001274AC /* DALLE_API.plist */; };
+		69BB64872A78D52A001274AC /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64862A78D529001274AC /* Secrets.swift */; };
+		69BB648C2A78DB47001274AC /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB648B2A78DB47001274AC /* ImageCard.swift */; };
+		69BB648E2A7A4090001274AC /* ImageOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB648D2A7A4090001274AC /* ImageOutput.swift */; };
+		69BB64902A7A418A001274AC /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB648F2A7A418A001274AC /* ProfileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +42,7 @@
 		69BB64602A49673E001274AC /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
 		69BB64632A496D98001274AC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		69BB64652A496DA2001274AC /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
-		69BB64672A496DAF001274AC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		69BB64672A496DAF001274AC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		69BB646A2A4974C3001274AC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		69BB646D2A4BEB22001274AC /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		69BB646F2A5F60E2001274AC /* UpdatableDrawingClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = UpdatableDrawingClassifier.mlmodel; path = ../../../Downloads/UpdatableDrawingClassifier.mlmodel; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		69BB647A2A60D79D001274AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		69BB647F2A6510AD001274AC /* ImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
 		69BB64822A6705CC001274AC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		69BB64842A78D492001274AC /* DALLE_API.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DALLE_API.plist; sourceTree = "<group>"; };
+		69BB64862A78D529001274AC /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		69BB648B2A78DB47001274AC /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
+		69BB648D2A7A4090001274AC /* ImageOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOutput.swift; sourceTree = "<group>"; };
+		69BB648F2A7A418A001274AC /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,7 @@
 		69BB644E2A495CF2001274AC /* ArtVision AI */ = {
 			isa = PBXGroup;
 			children = (
+				69BB648A2A78DB32001274AC /* Profile */,
 				69BB64812A6705BD001274AC /* LoadingPage */,
 				69BB647E2A65109A001274AC /* ImageGenerator */,
 				69BB647A2A60D79D001274AC /* Info.plist */,
@@ -94,6 +105,7 @@
 				69BB64512A495CF2001274AC /* ContentView.swift */,
 				69BB64532A495CF3001274AC /* Assets.xcassets */,
 				69BB64552A495CF3001274AC /* Preview Content */,
+				69BB64842A78D492001274AC /* DALLE_API.plist */,
 			);
 			path = "ArtVision AI";
 			sourceTree = "<group>";
@@ -120,7 +132,7 @@
 			children = (
 				69BB64632A496D98001274AC /* MapView.swift */,
 				69BB64652A496DA2001274AC /* ScanView.swift */,
-				69BB64672A496DAF001274AC /* SettingsView.swift */,
+				69BB64672A496DAF001274AC /* ProfileView.swift */,
 			);
 			path = MainPages;
 			sourceTree = "<group>";
@@ -153,6 +165,7 @@
 		69BB647E2A65109A001274AC /* ImageGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				69BB64862A78D529001274AC /* Secrets.swift */,
 				69BB647F2A6510AD001274AC /* ImageGenerator.swift */,
 			);
 			path = ImageGenerator;
@@ -164,6 +177,16 @@
 				69BB64822A6705CC001274AC /* LoadingView.swift */,
 			);
 			path = LoadingPage;
+			sourceTree = "<group>";
+		};
+		69BB648A2A78DB32001274AC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				69BB648B2A78DB47001274AC /* ImageCard.swift */,
+				69BB648D2A7A4090001274AC /* ImageOutput.swift */,
+				69BB648F2A7A418A001274AC /* ProfileManager.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69BB64572A495CF3001274AC /* Preview Assets.xcassets in Resources */,
+				69BB64852A78D492001274AC /* DALLE_API.plist in Resources */,
 				69BB64542A495CF3001274AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69BB64792A5FD4ED001274AC /* ImageExtension.swift in Sources */,
-				69BB64682A496DAF001274AC /* SettingsView.swift in Sources */,
+				69BB648E2A7A4090001274AC /* ImageOutput.swift in Sources */,
+				69BB64872A78D52A001274AC /* Secrets.swift in Sources */,
+				69BB64682A496DAF001274AC /* ProfileView.swift in Sources */,
 				69BB64612A49673E001274AC /* MainTab.swift in Sources */,
 				69BB64802A6510AD001274AC /* ImageGenerator.swift in Sources */,
 				69BB645F2A495FAA001274AC /* CustomTab.swift in Sources */,
@@ -251,12 +277,14 @@
 				69BB64642A496D98001274AC /* MapView.swift in Sources */,
 				69BB646B2A4974C3001274AC /* LocationManager.swift in Sources */,
 				69BB64832A6705CC001274AC /* LoadingView.swift in Sources */,
+				69BB648C2A78DB47001274AC /* ImageCard.swift in Sources */,
 				69BB64522A495CF2001274AC /* ContentView.swift in Sources */,
 				69BB64772A5FCF7C001274AC /* SqueezeNet.mlmodel in Sources */,
 				69BB64502A495CF2001274AC /* ArtVisionAIApp.swift in Sources */,
 				69BB64662A496DA2001274AC /* ScanView.swift in Sources */,
 				69BB64752A5F627E001274AC /* ImageModel.swift in Sources */,
 				69BB64702A5F60E2001274AC /* UpdatableDrawingClassifier.mlmodel in Sources */,
+				69BB64902A7A418A001274AC /* ProfileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

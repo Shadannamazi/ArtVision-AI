@@ -27,7 +27,7 @@ struct MainTab: View {
                         //ContentView()
                     }
                     if selectedTab == .gear {
-                        SettingsView()
+                        ProfileView()
                     }
                     
                 }
