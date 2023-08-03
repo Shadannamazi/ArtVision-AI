@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ScanView: View {
     @StateObject var cameraController = CameraController()
+    //@StateObject var profileManager = ProfileManager()
+    
     @State private var isActive = false
 
     var body: some View {
@@ -129,6 +131,7 @@ struct ScanView: View {
                 cameraController.checkIfCameraAuthorized()
                 #endif
         }
+            .environmentObject(ProfileManager())
         }
     }
 }
@@ -137,6 +140,7 @@ struct ScanView: View {
 struct ScanView_Previews: PreviewProvider {
     static var previews: some View {
         ScanView()
+            .environmentObject(ProfileManager())
     }
 }
 

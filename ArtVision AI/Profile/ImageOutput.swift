@@ -14,9 +14,10 @@ struct ImageOutput: Identifiable {
     var backgroundDescription: String
     var size: String
     var classificationLabel: String
+    var image: UIImage
 }
 
-
+//var imageList = []
 
 //var productList = [Product(name: "Lydia Top", color: "pink", image: "t1", type: "top"),
 //                   Product(name: "Sculpt Knit Criss Cross Tank", color: "white", image: "t2", type: "top"),

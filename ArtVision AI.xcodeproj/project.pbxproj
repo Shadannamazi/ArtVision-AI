@@ -30,6 +30,7 @@
 		69BB648C2A78DB47001274AC /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB648B2A78DB47001274AC /* ImageCard.swift */; };
 		69BB648E2A7A4090001274AC /* ImageOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB648D2A7A4090001274AC /* ImageOutput.swift */; };
 		69BB64902A7A418A001274AC /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB648F2A7A418A001274AC /* ProfileManager.swift */; };
+		69BB64922A7B4E6F001274AC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB64912A7B4E6F001274AC /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		69BB648B2A78DB47001274AC /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
 		69BB648D2A7A4090001274AC /* ImageOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOutput.swift; sourceTree = "<group>"; };
 		69BB648F2A7A418A001274AC /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		69BB64912A7B4E6F001274AC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		69BB644E2A495CF2001274AC /* ArtVision AI */ = {
 			isa = PBXGroup;
 			children = (
+				69BB64862A78D529001274AC /* Secrets.swift */,
 				69BB648A2A78DB32001274AC /* Profile */,
 				69BB64812A6705BD001274AC /* LoadingPage */,
 				69BB647E2A65109A001274AC /* ImageGenerator */,
@@ -165,7 +168,6 @@
 		69BB647E2A65109A001274AC /* ImageGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				69BB64862A78D529001274AC /* Secrets.swift */,
 				69BB647F2A6510AD001274AC /* ImageGenerator.swift */,
 			);
 			path = ImageGenerator;
@@ -185,6 +187,7 @@
 				69BB648B2A78DB47001274AC /* ImageCard.swift */,
 				69BB648D2A7A4090001274AC /* ImageOutput.swift */,
 				69BB648F2A7A418A001274AC /* ProfileManager.swift */,
+				69BB64912A7B4E6F001274AC /* SearchBar.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				69BB64502A495CF2001274AC /* ArtVisionAIApp.swift in Sources */,
 				69BB64662A496DA2001274AC /* ScanView.swift in Sources */,
 				69BB64752A5F627E001274AC /* ImageModel.swift in Sources */,
+				69BB64922A7B4E6F001274AC /* SearchBar.swift in Sources */,
 				69BB64702A5F60E2001274AC /* UpdatableDrawingClassifier.mlmodel in Sources */,
 				69BB64902A7A418A001274AC /* ProfileManager.swift in Sources */,
 			);

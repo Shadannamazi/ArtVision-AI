@@ -32,6 +32,10 @@ final class ViewModel: ObservableObject{
     
     func generateImage(prompt: String) async -> UIImage? {
         
+        
+        
+        
+        
         guard let openai = openai else{
             return nil
         }
@@ -53,6 +57,8 @@ final class ViewModel: ObservableObject{
             print(String(describing: error))
             return nil
         }
+        
+        
     }
     
     func getPrompt(style: String, size: String, description: String, colour: String, insertPrompt: String, imageStyle: [String: String]) -> String {
@@ -66,6 +72,7 @@ final class ViewModel: ObservableObject{
         return ""
     }
 
+    
     
 //    func getSize(style: String, size: String, imageStyle: [String: String]) -> String {
 //
@@ -85,6 +92,8 @@ struct ImageGenerator: View {
     
     @ObservedObject var viewModel = ViewModel()
     @EnvironmentObject var cameraController : CameraController
+    @EnvironmentObject var profileManager: ProfileManager
+    
     @State var text = ""
     @State var image: UIImage?
     
@@ -93,8 +102,13 @@ struct ImageGenerator: View {
     @State private var selectedStyle = "Cartoon"
     @State var backgroundColour = ""
     @State var backgroundDescription = ""
+    @State var outputPictureTitle = ""
     
     @FocusState private var textIsFocused: Bool
+    @FocusState private var textImageTitleIsFocused: Bool
+    
+    
+    @State var imageOutput: ImageOutput?
     
     //let imageStyle = ["Cartoon", "Realistic", "3D", "Pastel", "Anime"]
     let imageSizes = ["square", "rectangle", "rectangle.portrait"]
@@ -118,11 +132,32 @@ struct ImageGenerator: View {
             VStack{
                 if let image = image {
                     
+                    
                     Image(uiImage: image)
                         .resizable()
                         .scaledToFit()
                         .aspectRatio(viewModel.aspectRatio(for: selectedSize), contentMode: .fit)
                         .frame(width: 300, height: 300 * viewModel.aspectRatio(for: selectedSize))
+                    TextField("Title:", text: $outputPictureTitle)
+                        .padding()
+                        .background(.ultraThinMaterial)
+                        .cornerRadius(30)
+                    Button{
+                        imageOutput = ImageOutput(
+                            name: "Generated Image",
+                            backgroundColor: backgroundColour,
+                            backgroundDescription: backgroundDescription,
+                            size: selectedSize,
+                            classificationLabel: cameraController.classificationLabel,
+                            image: image
+                        )
+                        profileManager.addToProfile(image: imageOutput!)
+                        
+                    }label: {
+                        Text("Save Project")
+                            
+                    }
+                    
                     
                 }else{
                     //Text(cameraController.classificationLabel)
@@ -142,8 +177,8 @@ struct ImageGenerator: View {
                                     .focused($textIsFocused)
                                 
                                 Button("Submit") {
-                                                textIsFocused = false
-                                            }
+                                        textIsFocused = false
+                                }
                             }
                             
                         }
@@ -176,10 +211,15 @@ struct ImageGenerator: View {
                                     imageStyle: imageStyle))
                             
                             
-                            if result == nil{
-                                print("failed to get image")
-                            }
-                            self.image = result
+                            if result == nil {
+                                        print("failed to get image")
+                            } else {
+                                print("Generated Image")
+                                self.image = result
+                                        
+                                        
+                        }
+
                         }
                         
                     }
@@ -200,11 +240,14 @@ struct ImageGenerator: View {
         .navigationTitle("Image Generator")
         .onAppear{
             viewModel.setUp()
+                
         }
+        .environmentObject(ProfileManager())
        
         
   
     }
+        
 }
 
 struct ImageDimensionView: View {
@@ -229,5 +272,6 @@ struct ImageGenerator_Previews: PreviewProvider {
     static var previews: some View {
         ImageGenerator()
             .environmentObject(CameraController())
+            .environmentObject(ProfileManager())
     }
 }
