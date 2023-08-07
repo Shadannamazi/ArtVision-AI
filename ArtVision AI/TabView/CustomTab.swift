@@ -10,11 +10,13 @@ import SwiftUI
 enum Tab: String, CaseIterable {
     case map
     case viewfinder
-    case gear
+    case person
 }
 
 struct CustomTab: View {
     @Binding var selectedTab: Tab
+    
+    
     var body: some View {
         VStack{
             HStack{
@@ -33,6 +35,7 @@ struct CustomTab: View {
                     
                 }
             }
+            .ignoresSafeArea(.keyboard, edges: .bottom)
             .frame(width: nil,height: 60)
             .background(.thinMaterial)
             .cornerRadius(10)

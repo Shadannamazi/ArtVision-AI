@@ -32,7 +32,7 @@ final class ViewModel: ObservableObject{
     
     func generateImage(prompt: String) async -> UIImage? {
         
-        
+       
         
         
         
@@ -41,9 +41,6 @@ final class ViewModel: ObservableObject{
         }
         
         do{
-            
- 
-            
             let params = ImageParameters(prompt: prompt, resolution: .medium, responseFormat: .base64Json)
             
             let result = try await openai.createImage(parameters: params)
@@ -110,6 +107,8 @@ struct ImageGenerator: View {
     
     @State var imageOutput: ImageOutput?
     
+    @State var isLoading = false
+    
     //let imageStyle = ["Cartoon", "Realistic", "3D", "Pastel", "Anime"]
     let imageSizes = ["square", "rectangle", "rectangle.portrait"]
     let imageLabels = ["Square", "Rectangle 4:3", "Rectangle 3:4"]
@@ -125,7 +124,7 @@ struct ImageGenerator: View {
                       
                        "Anime":"A {insert_size} size soft studio-lit anime-style illustration of a {insert_prompt}, delicately detailed with intricate features. The artwork is inspired by the works of Greg Rutkowski, Makoto Shinkai, Takashi Takeuchi, and Studio Ghibli. The illustration is currently trending on Pixiv Fanbox with a background of {insert_background_des} with {insert_background_colour} background color."]
     
-    @State var on = true
+    @State var on = false
     
     var body: some View {
         NavigationView{
@@ -144,19 +143,23 @@ struct ImageGenerator: View {
                         .cornerRadius(30)
                     Button{
                         imageOutput = ImageOutput(
-                            name: "Generated Image",
+                            name: outputPictureTitle,
                             backgroundColor: backgroundColour,
                             backgroundDescription: backgroundDescription,
                             size: selectedSize,
                             classificationLabel: cameraController.classificationLabel,
-                            image: image
+                            image: image,
+                            style: selectedStyle
                         )
                         profileManager.addToProfile(image: imageOutput!)
+                        print("saved image to profile")
+                        print(profileManager.images)
                         
                     }label: {
                         Text("Save Project")
                             
                     }
+                    
                     
                     
                 }else{
@@ -171,8 +174,12 @@ struct ImageGenerator: View {
                                                    }
                                             Toggle("Add Background ", isOn: $on)
                             if on{
+                                
                                 TextField("Colour:", text: $backgroundColour,axis: .vertical)
                                     .focused($textIsFocused)
+                                    
+
+                                
                                 TextField("Descrption:", text: $backgroundDescription,axis: .vertical)
                                     .focused($textIsFocused)
                                 
@@ -194,12 +201,13 @@ struct ImageGenerator: View {
 
                         
                     }
+                    
                     .frame(alignment: .top)
                     .scrollContentBackground(.hidden)
                     .frame(height: 475, alignment: .top)
                     
                     Button("Generate!"){
-                        
+                        isLoading = true
                         Task{
                             let result = await viewModel.generateImage(
                                 prompt: viewModel.getPrompt(
@@ -215,11 +223,12 @@ struct ImageGenerator: View {
                                         print("failed to get image")
                             } else {
                                 print("Generated Image")
+                                
                                 self.image = result
                                         
                                         
-                        }
-
+                            }
+                            isLoading = false
                         }
                         
                     }
@@ -231,8 +240,14 @@ struct ImageGenerator: View {
                     .background(Color.black)
                 .clipShape(Capsule())
                     
+                
+                    if isLoading {
+                            ProgressView("Generating Image...")
+                                .progressViewStyle(CircularProgressViewStyle(tint: .black))
+                    }
            
                 }
+                
                 
             }
             
@@ -242,11 +257,14 @@ struct ImageGenerator: View {
             viewModel.setUp()
                 
         }
-        .environmentObject(ProfileManager())
+        .environmentObject(profileManager)
        
         
   
     }
+    
+    
+    
         
 }
 

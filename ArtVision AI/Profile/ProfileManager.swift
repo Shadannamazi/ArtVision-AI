@@ -8,6 +8,8 @@
 import SwiftUI
 
 class ProfileManager: ObservableObject {
+
+    
     @Published private(set) var images: [ImageOutput] = []
     @Published private(set) var imageNameList: [String] = []
     @Published private(set) var total: Int = 0
@@ -16,6 +18,10 @@ class ProfileManager: ObservableObject {
         images.append(image)
         total += 1
         
+    }
+    
+    func getTotalNumProjects() -> String{
+        return String(total)
     }
     
     func removeFromeProfile(image: ImageOutput) {

@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ArtVisionAI: App {
+    @EnvironmentObject var profileManager: ProfileManager
     var body: some Scene {
         WindowGroup {
-            MainTab()
+            
+            LoginPage()
+                .environmentObject(ProfileManager())
         }
     }
 }

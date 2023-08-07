@@ -10,38 +10,39 @@ import SwiftUI
 struct ImageCard: View {
     @EnvironmentObject var profileManager: ProfileManager
     var image: ImageOutput
+    let imageDimension = UIScreen.main.bounds.width / 3
     @State var isAdded : Bool = false
+    
+    
     var body: some View {
         ZStack(alignment: .topTrailing){
             ZStack(alignment: .bottom) {
+                
                 Image(uiImage: image.image)
                     .resizable()
-                    //.cornerRadius(20)
-                    .frame(width: 180)
-                    .scaledToFit()
-                VStack(alignment: .leading){
-                    Text(image.name)
-                        .bold()
-                    
-                }
-                .padding()
-                .frame(width: 180,alignment: .leading)
-                .background(.ultraThinMaterial)
+                    .scaledToFill()
+                    .frame(width: imageDimension, height: imageDimension)
+                    .border(Color.white)
+                    .clipped()
+        
+//                    .resizable()
+//                    //.cornerRadius(20)
+//                    .frame(width: 180)
+//                    .scaledToFit()
+//                VStack(alignment: .leading){
+//                    Text(image.name)
+//                        .bold()
+//                    
+//                }
+//                .padding()
+//                .frame(width: 180,alignment: .leading)
+//                .background(.ultraThinMaterial)
                 
             }
             .frame(width: 180, height: 250)
             
-            Button {
-                self.isAdded.toggle()
-                profileManager.addToProfile(image: image)
-                
-                
-            } label: {
-                Image(systemName: self.isAdded == true ? "plus.app.fill" : "plus.app")
-                
-            }
-            .padding(10)
-            .font(.system(size: 22))
+            
+           
         }
         
         
@@ -58,7 +59,9 @@ struct ImageCard_Previews: PreviewProvider {
                 backgroundDescription: "Artistic Background",
                 size: "square",
                 classificationLabel: "Art",
-                image: UIImage(systemName: "photo")! // placeholder image
+                image: UIImage(systemName: "photo")!,
+                // placeholder image
+                style: "Cartoon"
             )
 
             ImageCard(image: placeholderImageOutput)

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainTab: View {
+    @EnvironmentObject var profileManager: ProfileManager
+
+    
     
     init(){
         UITabBar.appearance().isHidden = true
@@ -24,30 +27,39 @@ struct MainTab: View {
                     }
                     if selectedTab == .viewfinder {
                         ScanView()
+                            .environmentObject(profileManager)
+                            
                         //ContentView()
                     }
-                    if selectedTab == .gear {
-                        ProfileView()
+                    if selectedTab == .person {
+                        ProfileProjectView()
+                            .environmentObject(profileManager)
                     }
                     
                 }
-              
+                
                 
             }
             VStack{
                 Spacer()
                 CustomTab(selectedTab: $selectedTab)
+                    .ignoresSafeArea(.keyboard)
                     .padding(.bottom,0)
+                    
             }
+            .ignoresSafeArea(.keyboard)
             
         }
+        .navigationBarBackButtonHidden(true)
         
     }
+    
 }
 
 struct MainTab_Previews: PreviewProvider {
     static var previews: some View {
         MainTab()
             .environmentObject(ProfileManager())
+      
     }
 }
