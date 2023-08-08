@@ -9,7 +9,10 @@ ArtVision AI is an innovative iOS application that seamlessly merges cutting-edg
 
 
 
-https://github.com/Shadannamazi/ArtVision-AI/assets/89245846/92cd1472-dc80-4da5-b7d6-7d8327c111cf
+
+https://github.com/Shadannamazi/ArtVision-AI/assets/89245846/522ef61c-4b8b-4e95-bdb5-07f7584d8459
+
+
 
 
 
