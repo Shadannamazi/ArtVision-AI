@@ -46,7 +46,7 @@ ArtVision AI opens up a world of possibilities, enabling users to channel their 
 
 | Project View 1 | Project View 2 | Map View 1 |
 |-----------------|-----------------|------------|
-| ![Project View 1](screenshots/project1.PNG) | ![Project View 2](screenshots/project2.PNG) | ![Map View 1](screenshots/map4.PNG) |
+| ![Project View 1](screenshots/project3.PNG) | ![Project View 2](screenshots/project2.PNG) | ![Map View 1](screenshots/map4.PNG) |
 
 | Map View 2 | Art Gallery 1 | Art Gallery 2 |
 |------------|---------------|---------------|
