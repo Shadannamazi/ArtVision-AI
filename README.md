@@ -29,34 +29,33 @@ ArtVision AI opens up a world of possibilities, enabling users to channel their 
 
 ## Screenshots of ArtVision AI
 
-
 | Art Gallery 1 | Art Gallery 2 | Camera Screenshot 1 |
 |---------------|---------------|---------------------|
-| ![Art Gallery 1](screenshots/artgallery1.PNG =250x) | ![Art Gallery 2](screenshots/artgallery2.PNG =250x) | ![Camera Screenshot 1](screenshots/camerapic1.PNG =250x) |
+| ![Art Gallery 1](screenshots/artgallery1.PNG) | ![Art Gallery 2](screenshots/artgallery2.PNG) | ![Camera Screenshot 1](screenshots/camerapic1.PNG) |
 
 | Camera Screenshot 2 | Generated Screenshot 1 | Generated Screenshot 2 |
 |---------------------|------------------------|------------------------|
-| ![Camera Screenshot 2](screenshots/camerapic2.PNG =250x) | ![Generated Screenshot 1](screenshots/generated1.PNG =250x) | ![Generated Screenshot 2](screenshots/generated2.PNG =250x) |
+| ![Camera Screenshot 2](screenshots/camerapic2.PNG) | ![Generated Screenshot 1](screenshots/generated1.PNG) | ![Generated Screenshot 2](screenshots/generated2.PNG) |
 
 | Image 1 | Image 2 | Image 3 |
 |---------|---------|---------|
-| ![Image 1](screenshots/im1.PNG =250x) | ![Image 2](screenshots/im2.PNG =250x) | ![Image 3](screenshots/im3.PNG =250x) |
+| ![Image 1](screenshots/im1.PNG) | ![Image 2](screenshots/im2.PNG) | ![Image 3](screenshots/im3.PNG) |
 
 | Image 4 | Image 5 | Image 6 |
 |---------|---------|---------|
-| ![Image 4](screenshots/im4.PNG =250x) | ![Image 5](screenshots/im5.PNG =250x) | ![Image 6](screenshots/im6.PNG =250x) |
+| ![Image 4](screenshots/im4.PNG) | ![Image 5](screenshots/im5.PNG) | ![Image 6](screenshots/im6.PNG) |
 
 | Map Screenshot 1 | Map Screenshot 2 | Map Screenshot 3 |
 |-------------------|-------------------|-------------------|
-| ![Map Screenshot 1](screenshots/map1.PNG =250x) | ![Map Screenshot 2](screenshots/map2.PNG =250x) | ![Map Screenshot 3](screenshots/map3.PNG =250x) |
+| ![Map Screenshot 1](screenshots/map1.PNG) | ![Map Screenshot 2](screenshots/map2.PNG) | ![Map Screenshot 3](screenshots/map3.PNG) |
 
 | Profile Screenshot 1 | Profile Screenshot 2 | Project Screenshot 1 |
 |----------------------|----------------------|-----------------------|
-| ![Profile Screenshot 1](screenshots/profile1.PNG =250x) | ![Profile Screenshot 2](screenshots/profile2.PNG =250x) | ![Project Screenshot 1](screenshots/project1.PNG =250x) |
+| ![Profile Screenshot 1](screenshots/profile1.PNG) | ![Profile Screenshot 2](screenshots/profile2.PNG) | ![Project Screenshot 1](screenshots/project1.PNG) |
 
 | Project Screenshot 2 | Other Screenshot 1 | Other Screenshot 2 |
 |-----------------------|---------------------|---------------------|
-| ![Project Screenshot 2](screenshots/project2.PNG =250x) | ![Other Screenshot 1](screenshots/IMG_8737.PNG =250x) | ![Other Screenshot 2](screenshots/login.PNG =250x) |
+| ![Project Screenshot 2](screenshots/project2.PNG) | ![Other Screenshot 1](screenshots/IMG_8737.PNG) | ![Other Screenshot 2](screenshots/login.PNG) |
 
 
 
