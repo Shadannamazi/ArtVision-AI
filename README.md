@@ -30,44 +30,30 @@ ArtVision AI opens up a world of possibilities, enabling users to channel their 
 ## Screenshots of ArtVision AI
 
 
-| Art Gallery 1 | Art Gallery 2 |
-|---------------|---------------|
-| ![Art Gallery 1](screenshots/artgallery1.PNG) | ![Art Gallery 2](screenshots/artgallery2.PNG) |
+## Gallery
 
-## Screenshots
 
-### Login Page
-![Login Page](screenshots/login.PNG)
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|--------------|--------------|--------------|
+| ![Screenshot 1](screenshots/login.PNG) | ![Screenshot 2](screenshots/camerapic1.PNG) | ![Screenshot 3](screenshots/camerapic2.PNG) |
 
-### Camera View
-| Screenshot 1 | Screenshot 2 |
-|--------------|--------------|
-| ![Camera Screenshot 1](screenshots/camerapic1.PNG) | ![Camera Screenshot 2](screenshots/camerapic2.PNG) |
+| Screenshot 4 | Screenshot 5 | Screenshot 6 |
+|--------------|--------------|--------------|
+| ![Screenshot 4](screenshots/im2.PNG) | ![Screenshot 5](screenshots/im1.PNG) | ![Screenshot 6](screenshots/generated1.PNG) |
 
-### Image Generator
-| Image 2 | Image 1 |
-|---------|---------|
-| ![Image 2](screenshots/im2.PNG) | ![Image 1](screenshots/im1.PNG) |
+| Screenshot 7 | Screenshot 8 | Screenshot 9 |
+|--------------|--------------|--------------|
+| ![Screenshot 7](screenshots/generated2.PNG) | ![Screenshot 8](screenshots/profile1.PNG) | ![Screenshot 9](screenshots/profile2.PNG) |
 
-### Generated Image
-| Generated Screenshot 1 | Generated Screenshot 2 |
-|------------------------|------------------------|
-| ![Generated Screenshot 1](screenshots/generated1.PNG) | ![Generated Screenshot 2](screenshots/generated2.PNG) |
+| Screenshot 10 | Screenshot 11 | Screenshot 12 |
+|---------------|---------------|---------------|
+| ![Screenshot 10](screenshots/project1.PNG) | ![Screenshot 11](screenshots/project2.PNG) | ![Screenshot 12](screenshots/map1.PNG) |
 
-### Profile Page
-| Profile Screenshot 1 | Profile Screenshot 2 |
-|----------------------|----------------------|
-| ![Profile Screenshot 1](screenshots/profile1.PNG) | ![Profile Screenshot 2](screenshots/profile2.PNG) |
+| Screenshot 13 | Screenshot 14 | Screenshot 15 |
+|---------------|---------------|---------------|
+| ![Screenshot 13](screenshots/map3.PNG) | ![Screenshot 14](screenshots/artgallery1.PNG) | ![Screenshot 15](screenshots/artgallery2.PNG) |
 
-### Project View
-| Project Screenshot 1 | Project Screenshot 2 |
-|-----------------------|-----------------------|
-| ![Project Screenshot 1](screenshots/project1.PNG) | ![Project Screenshot 2](screenshots/project2.PNG) |
 
-### Map
-| Map Screenshot 1 | Map Screenshot 2 |
-|-------------------|-------------------|
-| ![Map Screenshot 1](screenshots/map1.PNG) | ![Map Screenshot 3](screenshots/map3.PNG) |
 
 
 ## Key Features
