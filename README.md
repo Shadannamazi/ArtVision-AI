@@ -9,9 +9,9 @@ ArtVision AI is an innovative iOS application that seamlessly merges cutting-edg
 
 ## Table of Contents
 - [Introduction](#what-ArtVision-AI-Does)
-- [Features](#key-features)
 - [Screenshots](#screenshots-of-artvision-ai)
-- [Technologies Used](#Technologies-Used)
+- [Technologies Used](#technologies-used)
+- [Features](#key-features)
 - [Gallery](#gallery)
 - [Getting Started](#Get-Started)
 - [License](#license)
@@ -29,6 +29,20 @@ ArtVision AI brings the realm of AI-generated art to the palm of your hand. Here
 4. **Interactive Map Gallery**: Take your art global. The Interactive Map Gallery leverages your device's location to display location-based art galleries, it creates art galleries based on your location! This feature provides a window into the creative expressions of users across different geographical regions, uniting technology, art, and exploration.
 
 ArtVision AI opens up a world of possibilities, enabling users to channel their artistic aspirations into tangible and mesmerizing digital creations. It's a creative tool, a platform for self-expression, and a testament to the dynamic synergy between technology and art.
+
+## Technologies Used
+
+ArtVision AI harnesses a diverse set of technologies to bring its innovative features to life:
+
+* **SwiftUI**: The app's user interface is built using SwiftUI, Apple's modern declarative UI framework.
+* **AVFoundation**: Used to manage and control the camera functionality, allowing users to capture images.
+* **CoreML and SqueezeNet**: The app's machine learning capabilities are powered by CoreML, Apple's machine learning framework. The SqueezeNet model is employed for image classification, enabling real-time identification and labeling of objects captured by the camera.
+* **DALLE API**: ArtVision AI collaborates with the DALLE API to generate AI-generated images. Through API calls to the DALLE service, the app produces artistic images based on user-provided descriptions, including styles, backgrounds, and dimensions.
+* **MapKit**: The app integrates MapKit, Apple's mapping framework, to implement the map view feature. MapKit enables the app to showcase the user's location and establish art galleries based on geographic proximity.
+* **Location Services**: ArtVision AI utilizes the device's location services to determine the user's precise location. This information powers the creation of nearby art galleries, enhancing the overall user experience.
+* **Camera Integration**: ArtVision AI seamlessly integrates the device's camera functionality, allowing users to capture images of real-world objects. These images are then processed by the app for object classification and subsequent AI-generated artwork creation.
+* **Xcode**: The integrated development environment for building, testing, and deploying the app.
+* **Swift Package Manager**: The app leverages Swift Package Manager to incorporate various Swift packages, enriching app features and streamlining development workflows.
 
 ## Screenshots of ArtVision AI
 
@@ -62,19 +76,7 @@ ArtVision AI opens up a world of possibilities, enabling users to channel their 
 - Seamlessly merge technology and creativity through intuitive user interfaces.
 - Contribute to the creative community by sharing your art globally.
 
-## Technologies Used
 
-ArtVision AI harnesses a diverse set of technologies to bring its innovative features to life:
-
-* **SwiftUI**: The app's user interface is built using SwiftUI, Apple's modern declarative UI framework.
-* **AVFoundation**: Used to manage and control the camera functionality, allowing users to capture images.
-* **CoreML and SqueezeNet**: The app's machine learning capabilities are powered by CoreML, Apple's machine learning framework. The SqueezeNet model is employed for image classification, enabling real-time identification and labeling of objects captured by the camera.
-* **DALLE API**: ArtVision AI collaborates with the DALLE API to generate AI-generated images. Through API calls to the DALLE service, the app produces artistic images based on user-provided descriptions, including styles, backgrounds, and dimensions.
-* **MapKit**: The app integrates MapKit, Apple's mapping framework, to implement the map view feature. MapKit enables the app to showcase the user's location and establish art galleries based on geographic proximity.
-* **Location Services**: ArtVision AI utilizes the device's location services to determine the user's precise location. This information powers the creation of nearby art galleries, enhancing the overall user experience.
-* **Camera Integration**: ArtVision AI seamlessly integrates the device's camera functionality, allowing users to capture images of real-world objects. These images are then processed by the app for object classification and subsequent AI-generated artwork creation.
-* **Xcode**: The integrated development environment for building, testing, and deploying the app.
-* **Swift Package Manager**: The app leverages Swift Package Manager to incorporate various Swift packages, enriching app features and streamlining development workflows.
   
 ## Gallery
 Check out some of the amazing artworks created using ArtVision AI:
