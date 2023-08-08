@@ -29,9 +29,8 @@ ArtVision AI opens up a world of possibilities, enabling users to channel their 
 
 ## Screenshots of ArtVision AI
 
-<p align="center">
-  [IMG_8717](https://github.com/Shadannamazi/ArtVision-AI/assets/89245846/8c4c0490-019f-4ba5-8019-a7ed1e61ae3f)
-</p>!
+![IMG_8717](https://github.com/Shadannamazi/ArtVision-AI/assets/89245846/80f101b4-0e2c-4709-ab1b-40d743c8c9bd)
+
 
 
 ## Key Features
