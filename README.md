@@ -17,7 +17,7 @@ https://github.com/Shadannamazi/ArtVision-AI/assets/89245846/522ef61c-4b8b-4e95-
 
 
 ## Table of Contents
-- [Introduction](#what-ArtVision-AI-Does)
+- [Introduction](#what-artvision-ai-does)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots-of-artvision-ai)
 - [Features](#key-features)
@@ -49,7 +49,7 @@ ArtVision AI harnesses a diverse set of technologies to bring its innovative fea
   
 * **CoreML and SqueezeNet**: The app's machine learning capabilities are powered by CoreML, Apple's machine learning framework. The SqueezeNet model is employed for image classification, enabling real-time identification and labeling of objects captured by the camera.
   
-* **DALLE API**: ArtVision AI collaborates with the DALLE API to generate AI-generated images. Through API calls to the DALLE service, the app produces artistic images based on user-provided descriptions, including styles, backgrounds, and dimensions.
+* **Open AI API:DALL-E**: ArtVision AI collaborates with the DALLE API to generate AI-generated images. Through API calls to the DALLE service, the app produces artistic images based on user-provided descriptions, including styles, backgrounds, and dimensions.
   
 * **MapKit**: The app integrates MapKit, Apple's mapping framework, to implement the map view feature. MapKit enables the app to showcase the user's location and establish art galleries based on geographic proximity.
   
