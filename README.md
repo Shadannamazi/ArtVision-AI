@@ -1,10 +1,15 @@
 # ArtVision AI App
 
-<p align="center">
-  <img src="app_demo.gif" alt="ArtVision AI Demo" width="300"/>
-</p>
 
 ArtVision AI is an innovative iOS application that seamlessly merges cutting-edge technology and artistic expression. Developed using SwiftUI and Xcode, this app empowers users to create stunning AI-generated artworks through an intuitive and interactive interface. With a robust blend of machine learning, sophisticated image generation APIs, and user-centric design, ArtVision AI sets the stage for users to embark on a creative journey like never before.
+
+
+## Table of Contents
+- [Introduction](#What-ArtVision-AI-Does)
+- [Features](#Key-Features)
+- [Gallery](#gallery)
+- [Getting Started](#Get-Started)
+- [License](#license)
 
 ## What ArtVision AI Does
 
@@ -16,7 +21,7 @@ ArtVision AI brings the realm of AI-generated art to the palm of your hand. Here
 
 3. **Personal Gallery**: Your creations find a home in the app's Profile Page. This gallery mimics the layout of a social media platform, offering a platform for you to showcase your evolving collection of AI-generated artworks. Each artwork comes complete with a distinctive title, detailed information, and a visual representation.
 
-4. **Interactive Map Gallery**: Take your art global. The Interactive Map Gallery leverages your device's location to display location-based art galleries. This feature provides a window into the creative expressions of users across different geographical regions, uniting technology, art, and exploration.
+4. **Interactive Map Gallery**: Take your art global. The Interactive Map Gallery leverages your device's location to display location-based art galleries, it creates art galleries based on your location! This feature provides a window into the creative expressions of users across different geographical regions, uniting technology, art, and exploration.
 
 ArtVision AI opens up a world of possibilities, enabling users to channel their artistic aspirations into tangible and mesmerizing digital creations. It's a creative tool, a platform for self-expression, and a testament to the dynamic synergy between technology and art.
 
@@ -29,6 +34,9 @@ ArtVision AI opens up a world of possibilities, enabling users to channel their 
 - Seamlessly merge technology and creativity through intuitive user interfaces.
 - Contribute to the creative community by sharing your art globally.
 
+## Gallery
+Check out some of the amazing artworks created using ArtVision AI:
+
 ## Get Started
 
 To experience the magic of ArtVision AI:
@@ -38,3 +46,7 @@ To experience the magic of ArtVision AI:
 3. Build and run the app on a simulator or a physical iOS device.
 
 Start your creative journey today with ArtVision AI!
+
+## License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for your own purposes.
+
