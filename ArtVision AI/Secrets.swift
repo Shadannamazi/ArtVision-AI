@@ -7,4 +7,4 @@
 
 import SwiftUI
 
-let apiKey = "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"
+let apiKey = ""
