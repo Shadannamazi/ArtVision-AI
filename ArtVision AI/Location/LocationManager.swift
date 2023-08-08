@@ -3,11 +3,12 @@ import MapKit
 
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     private var locationManager: CLLocationManager?
-
+    
+    
     @Published var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(
-            latitude: 40.83834587046632,
-            longitude: 14.254053016537693
+            latitude: 49.3374451,
+            longitude: -123.1442213
         ),
         span: MKCoordinateSpan(
             latitudeDelta: 0.03,
@@ -58,4 +59,6 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         checkLocationAuthorization()
     }
+    
+    
 }

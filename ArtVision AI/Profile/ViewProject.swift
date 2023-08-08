@@ -50,6 +50,7 @@ struct ViewProject: View {
                     Spacer()
                 }
                 .navigationBarTitle("", displayMode: .inline)
+                .navigationBarTitleDisplayMode(.inline)
             }
         }
     }

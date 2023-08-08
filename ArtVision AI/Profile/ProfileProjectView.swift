@@ -13,6 +13,8 @@ struct ProfileProjectView: View {
                    GridItem(.flexible()),
                    GridItem(.flexible())]
     
+
+    
     let imageDimension = UIScreen.main.bounds.width / 3
     
     var body: some View {
@@ -28,18 +30,28 @@ struct ProfileProjectView: View {
                         
                         Spacer()
                         
-                        Image(systemName: "plus.app")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 25, height: 25)
-                            .foregroundColor(Color.black)
-                            .padding()
+                        Button{
+                            
+                        }label: {
+                            Image(systemName: "plus.app")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 25, height: 25)
+                                .foregroundColor(Color.black)
+                                .padding()
+                        }
                         
-                        Image(systemName: "list.bullet")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 20, height: 20)
-                            .foregroundColor(Color.black)
+                        Button{
+                            
+                        }label: {
+                            Image(systemName: "list.bullet")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 20, height: 20)
+                                .foregroundColor(Color.black)
+                                .padding(5)
+                        }
+                        
 
                         
                         
@@ -57,6 +69,7 @@ struct ProfileProjectView: View {
                         HStack(spacing: 27) {
                             
                             Spacer()
+                          
                             
                             VStack(spacing: 2) {
                                 Text(profileManager.getTotalNumProjects())
@@ -111,24 +124,33 @@ struct ProfileProjectView: View {
                     .padding(.vertical, 4)
                     
                     HStack {
-                        Text("Edit Profile")
-                            .font(.footnote)
-                            .fontWeight(.semibold)
-                            .foregroundColor(Color.black)
-                            .frame(width: 330, height: 34)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 4)
-                                    .stroke(Color(.systemGray3))
-                            )
+                        Button{
+                            
+                        }label: {
+                            Text("Edit Profile")
+                                .font(.footnote)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.black)
+                                .frame(width: 330, height: 34)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 4)
+                                        .stroke(Color(.systemGray3))
+                                )
+                        }
                         
-                        Image(systemName: "person.badge.plus")
-                            .font(.footnote)
-                            .frame(width: 32, height: 34)
-                            .foregroundColor(Color.black)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 4)
-                                    .stroke(Color(.systemGray3))
-                            )
+                        Button{
+                            
+                        }label: {
+                            Image(systemName: "person.badge.plus")
+                                .font(.footnote)
+                                .frame(width: 32, height: 34)
+                                .foregroundColor(Color.black)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 4)
+                                        .stroke(Color(.systemGray3))
+                                )
+                        }
+                        
                     }
                     
                     HStack {
@@ -167,7 +189,9 @@ struct ProfileProjectView: View {
                 .padding()
             }
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
+    
 }
 
 struct ProfileProjectView_Previews: PreviewProvider {

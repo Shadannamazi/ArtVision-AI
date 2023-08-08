@@ -25,18 +25,6 @@ struct ImageCard: View {
                     .border(Color.white)
                     .clipped()
         
-//                    .resizable()
-//                    //.cornerRadius(20)
-//                    .frame(width: 180)
-//                    .scaledToFit()
-//                VStack(alignment: .leading){
-//                    Text(image.name)
-//                        .bold()
-//                    
-//                }
-//                .padding()
-//                .frame(width: 180,alignment: .leading)
-//                .background(.ultraThinMaterial)
                 
             }
             .frame(width: 180, height: 250)

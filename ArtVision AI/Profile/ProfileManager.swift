@@ -6,16 +6,26 @@
 //
 
 import SwiftUI
+import CoreLocation
+import MapKit
+
 
 class ProfileManager: ObservableObject {
-
+    @StateObject var locationManager = LocationManager()
     
     @Published private(set) var images: [ImageOutput] = []
     @Published private(set) var imageNameList: [String] = []
     @Published private(set) var total: Int = 0
     
+    @Published private(set) var artGalleries: [ArtGallery] = []
+    
     func addToProfile(image: ImageOutput) {
         images.append(image)
+        
+        let newArtGallery = ArtGallery(name: "My Art Gallery", imageCover: image,  author: "Shadan", coordinates:locationManager.region, description: "This is my first art gallery")
+        
+        artGalleries.append(newArtGallery)
+        
         total += 1
         
     }

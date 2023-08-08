@@ -33,7 +33,7 @@ struct LoginPage: View {
                             .font(.system(size: 22)).bold()
                             .frame(maxWidth: .infinity,alignment: .leading)
                         
-                        CustomtextFeild(icon: "envelope", title: "Email", hint: "yourEmail@gmail.com", value: $loginData.email, showPassword: .constant(false))
+                        CustomtextFeild(icon: "person", title: "Username", hint: "yourUsername", value: $loginData.email, showPassword: .constant(false))
                             .padding(.top,30)
                         
                         CustomtextFeild(icon: "lock", title: "Password", hint: "123456", value: $loginData.password, showPassword: $loginData.showPassword)
