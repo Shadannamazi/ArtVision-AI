@@ -1,4 +1,4 @@
-# ![App Icon](screenshots/AppIcon.png = 100x100) ArtVision AI App
+# ![App Icon](screenshots/AppIcon.png = 100*100) ArtVision AI App
 
 
 
