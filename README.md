@@ -3,10 +3,12 @@
 
 ArtVision AI is an innovative iOS application that seamlessly merges cutting-edge technology and artistic expression. Developed using SwiftUI and Xcode, this app empowers users to create stunning AI-generated artworks through an intuitive and interactive interface. With a robust blend of machine learning, sophisticated image generation APIs, and user-centric design, ArtVision AI sets the stage for users to embark on a creative journey like never before.
 
+## View Demo of ArtVision AI
 
 ## Table of Contents
 - [Introduction](#What-ArtVision-AI-Does)
 - [Features](#Key-Features)
+- [Screenshots](#Screenshots-of-ArtVision-AI)
 - [Gallery](#gallery)
 - [Getting Started](#Get-Started)
 - [License](#license)
@@ -24,6 +26,13 @@ ArtVision AI brings the realm of AI-generated art to the palm of your hand. Here
 4. **Interactive Map Gallery**: Take your art global. The Interactive Map Gallery leverages your device's location to display location-based art galleries, it creates art galleries based on your location! This feature provides a window into the creative expressions of users across different geographical regions, uniting technology, art, and exploration.
 
 ArtVision AI opens up a world of possibilities, enabling users to channel their artistic aspirations into tangible and mesmerizing digital creations. It's a creative tool, a platform for self-expression, and a testament to the dynamic synergy between technology and art.
+
+## Screenshots of ArtVision AI
+
+<p align="center">
+  [IMG_8717](https://github.com/Shadannamazi/ArtVision-AI/assets/89245846/8c4c0490-019f-4ba5-8019-a7ed1e61ae3f)
+</p>!
+
 
 ## Key Features
 
