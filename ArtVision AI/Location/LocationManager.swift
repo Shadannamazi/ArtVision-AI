@@ -7,8 +7,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     @Published var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(
-            latitude: 49.3374451,
-            longitude: -123.1442213
+            latitude: 39.3374451,
+            longitude: -120.1442213
         ),
         span: MKCoordinateSpan(
             latitudeDelta: 0.03,
