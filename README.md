@@ -31,7 +31,7 @@ ArtVision AI opens up a world of possibilities, enabling users to channel their 
 
 | Screenshot 1 | Screenshot 2 | Screenshot 3 |
 |--------------|--------------|--------------|
-| ![Screenshot 1](screenshots/screenshot1.png) | ![Screenshot 2](screenshots/screenshot2.png) | ![Screenshot 3](screenshots/screenshot3.png) |
+| ![Screenshot 1](screenshots/camerapic1.png) | ![Screenshot 2](screenshots/im12.png) | ![Screenshot 3](screenshots/login.png) |
 
 | Screenshot 4 | Screenshot 5 | Screenshot 6 |
 |--------------|--------------|--------------|
