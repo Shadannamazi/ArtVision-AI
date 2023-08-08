@@ -18,8 +18,8 @@ https://github.com/Shadannamazi/ArtVision-AI/assets/89245846/522ef61c-4b8b-4e95-
 
 ## Table of Contents
 - [Introduction](#what-ArtVision-AI-Does)
-- [Screenshots](#screenshots-of-artvision-ai)
 - [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots-of-artvision-ai)
 - [Features](#key-features)
 - [Gallery](#gallery)
 - [Getting Started](#Get-Started)
