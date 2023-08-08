@@ -1,5 +1,5 @@
-# ArtVision AI App
-![App Icon](screenshots/AppIcon.png)
+# ![App Icon](screenshots/AppIcon.png) ArtVision AI App
+
 
 ArtVision AI is an innovative iOS application that seamlessly merges cutting-edge technology and artistic expression. Developed using SwiftUI and Xcode, this app empowers users to create stunning AI-generated artworks through an intuitive and interactive interface. With a robust blend of machine learning, sophisticated image generation APIs, and user-centric design, ArtVision AI sets the stage for users to embark on a creative journey like never before.
 
