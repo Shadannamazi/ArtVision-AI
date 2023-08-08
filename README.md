@@ -29,31 +29,25 @@ ArtVision AI opens up a world of possibilities, enabling users to channel their 
 
 ## Screenshots of ArtVision AI
 
+| Login Page | Camera View 1 | Camera View 2 |
+|------------|---------------|---------------|
+| ![Login Page](screenshots/login.PNG) | ![Camera View 1](screenshots/camerapic1.PNG) | ![Camera View 2](screenshots/camerapic2.PNG) |
 
-## Gallery
+| Image Generator 1 | Image Generator 2 | Generated Image 1 |
+|-------------------|-------------------|-------------------|
+| ![Image Generator 1](screenshots/im2.PNG) | ![Image Generator 2](screenshots/im1.PNG) | ![Generated Image 1](screenshots/generated1.PNG) |
 
+| Generated Image 2 | Profile Page 1 | Profile Page 2 |
+|-------------------|-----------------|-----------------|
+| ![Generated Image 2](screenshots/generated2.PNG) | ![Profile Page 1](screenshots/profile1.PNG) | ![Profile Page 2](screenshots/profile2.PNG) |
 
-| Screenshot 1 | Screenshot 2 | Screenshot 3 |
-|--------------|--------------|--------------|
-| ![Screenshot 1](screenshots/login.PNG) | ![Screenshot 2](screenshots/camerapic1.PNG) | ![Screenshot 3](screenshots/camerapic2.PNG) |
+| Project View 1 | Project View 2 | Map View 1 |
+|-----------------|-----------------|------------|
+| ![Project View 1](screenshots/project1.PNG) | ![Project View 2](screenshots/project2.PNG) | ![Map View 1](screenshots/map1.PNG) |
 
-| Screenshot 4 | Screenshot 5 | Screenshot 6 |
-|--------------|--------------|--------------|
-| ![Screenshot 4](screenshots/im2.PNG) | ![Screenshot 5](screenshots/im1.PNG) | ![Screenshot 6](screenshots/generated1.PNG) |
-
-| Screenshot 7 | Screenshot 8 | Screenshot 9 |
-|--------------|--------------|--------------|
-| ![Screenshot 7](screenshots/generated2.PNG) | ![Screenshot 8](screenshots/profile1.PNG) | ![Screenshot 9](screenshots/profile2.PNG) |
-
-| Screenshot 10 | Screenshot 11 | Screenshot 12 |
-|---------------|---------------|---------------|
-| ![Screenshot 10](screenshots/project1.PNG) | ![Screenshot 11](screenshots/project2.PNG) | ![Screenshot 12](screenshots/map1.PNG) |
-
-| Screenshot 13 | Screenshot 14 | Screenshot 15 |
-|---------------|---------------|---------------|
-| ![Screenshot 13](screenshots/map3.PNG) | ![Screenshot 14](screenshots/artgallery1.PNG) | ![Screenshot 15](screenshots/artgallery2.PNG) |
-
-
+| Map View 2 | Art Gallery 1 | Art Gallery 2 |
+|------------|---------------|---------------|
+| ![Map View 2](screenshots/map3.PNG) | ![Art Gallery 1](screenshots/artgallery1.PNG) | ![Art Gallery 2](screenshots/artgallery2.PNG) |
 
 
 ## Key Features
