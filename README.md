@@ -8,8 +8,8 @@ ArtVision AI is an innovative iOS application that seamlessly merges cutting-edg
 ## View Demo of ArtVision AI
 
 ## Table of Contents
-- [Introduction](#What-ArtVision-AI-Does)
-- [Features](#Key-Features)
+- [Introduction](#what-ArtVision-AI-Does)
+- [Features](#key-features)
 - [Screenshots](#Screenshots-of-ArtVision-AI)
 - [Technologies Used](#Technologies-Used)
 - [Gallery](#gallery)
