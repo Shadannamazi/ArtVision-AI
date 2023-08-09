@@ -101,7 +101,7 @@ Check out some of the amazing artworks created using ArtVision AI:
 
 | Login Page | Camera View 1 | Camera View 2 |
 |------------|---------------|---------------|
-| ![Camera View 2](screenshots/camerapic2.PNG) | ![Image Generator 2](screenshots/im1.PNG) | ![Image Generator 1](screenshots/im2.PNG) |
+| ![Camera View 2](screenshots/camerapic2.PNG) | ![Image Generator 2](screenshots/im1.PNG) | ![Generated Image 1](screenshots/generated1.PNG) |
 |-------------------|-------------------|-------------------|
 | ![Profile Page 2](screenshots/profile2.PNG) | ![Map View 1](screenshots/map4.PNG) | ![Map View 2](screenshots/map3.PNG) |
 
