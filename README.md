@@ -99,15 +99,6 @@ ArtVision AI harnesses a diverse set of technologies to bring its innovative fea
 Check out some of the amazing artworks created using ArtVision AI:
 
 
-| Login Page | Camera View 1 | Camera View 2 |
-|------------|---------------|---------------|
-| ![Camera View 2](screenshots/camerapic2.PNG) | ![Image Generator 2](screenshots/im1.PNG) |  ![Generated Image 2](screenshots/generated2.PNG) |
-|-------------------|-------------------|-------------------|
-| ![Profile Page 2](screenshots/profile2.PNG) | ![Map View 1](screenshots/map4.PNG) | ![Map View 2](screenshots/map3.PNG) |
-
-
-
-
 ## Get Started
 
 To experience the magic of ArtVision AI:
