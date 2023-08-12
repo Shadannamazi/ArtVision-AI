@@ -31,7 +31,7 @@ ArtVision AI brings the realm of AI-generated art to the palm of your hand. Here
 
 1. **Capture and Classify**: Using your device's camera, capture real-world objects. The app employs CoreML and the SqueezeNet model to analyze the objects and provide accurate classification labels. This step is the foundation for your creative process.
 
-2. **AI Art Generation**: ArtVision AI harnesses the power of the DALLE API to generate intricate and captivating AI artworks. Customize your masterpiece with various preferences, including style options (such as cartoon, realistic, anime, 3D), background descriptions, background colors, and desired image dimensions. Watch as your ideas come to life on the digital canvas.
+2. **AI Art Generation**: ArtVision AI harnesses the power of the OpenAI DALLE API to generate intricate and captivating AI artworks based on the classification label of the object you took a picture of. Customize your masterpiece with various preferences, including style options (such as cartoon, realistic, anime, 3D), background descriptions, background colors, and desired image dimensions. Watch as your ideas come to life on the digital canvas.
 
 3. **Personal Gallery**: Your creations find a home in the app's Profile Page. This gallery mimics the layout of a social media platform, offering a platform for you to showcase your evolving collection of AI-generated artworks. Each artwork comes complete with a distinctive title, detailed information, and a visual representation.
 
